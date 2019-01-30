@@ -1,6 +1,8 @@
 a=['a','e','i','o','u','A','E','I','O','U'];
-s=str(input("Enter the letter:"))
+s=input()
 if(s in a):
   print("vowel")
+elif(s=="$"):
+	print("invalid")
 else:
-print("consonant")
+	print("consonant")
