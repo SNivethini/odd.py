@@ -1,4 +1,4 @@
-ip = input("Enter any character: ");
+ip = input();
 if ip == '0':
     exit();
 else:
