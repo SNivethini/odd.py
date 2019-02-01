@@ -1,24 +1,26 @@
 #include <stdio.h>
-int main(void) {
-	int y;
-    scanf("%d",&y);
- 
-    if(y%4 == 0)
+
+int main()
+{
+    int year;
+    scanf("%d",&year);
+
+    if(year%4 == 0)
     {
-        if( y%100 == 0)
+        if( year%100 == 0)
         {
- 
-            if ( y%400 == 0)
-                printf("yes", y);
+           
+            if ( year%400 == 0)
+                printf("yes", year);
             else
-                printf("no", y);
+                printf("no", year);
         }
         else
-            printf("yes", y );
+            printf("yes", year );
     }
     else
-        printf("no", y);
- 
-	return 0;
+        printf("no", year);
+    
+    return 0;
 }
  
